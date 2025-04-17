@@ -1,0 +1,119 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.table {
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.table img {
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-right: 5px;
+    border-radius: 0.25rem;
+}
+
+.alert {
+    margin-top: 20px;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 0.5rem;
+    border: none;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-bottom: none;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #6c757d;
+}
+
+footer {
+    margin-top: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Dashboard stats */
+.card-body h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Forms */
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+/* Responsive table */
+@media (max-width: 767.98px) {
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
